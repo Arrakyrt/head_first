@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Пришельцы похищали меня</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<h2>Пришельцы похищали меня - сообщить о похищении</h2>
+
+<p>Расскажите историю о похищении вас космическими пришельцами</p>
+
+<form method="post" action="mailto:a_sidorik@mail.ru">
+	<label for="firstname">Имя:</label>
+	<input type="text" id="firstname" name="firstname"><br>
+	<label for="lastname">Фамилия:</label>
+	<input type="text" id="lastname" name="lastname"><br>
+	<label for="email">Ваш адрес электронной почты</label>
+	<input type="text" id="email" name="email"><br>
+	<label for="whenithappens">Когда это произошло?</label>
+	<input type="text" id="whenithappens" name="whenithappens"><br>
+	<label for="howlong">Как долго вы отсутствовали?</label>
+	<input type="text" id="howlong" name="howlong"><br>
+	<label for="howmany">Сколько их было?</label>
+	<input type="text" id="howmany" name="howmany"><br>
+	<label for="aliensdescription">Опешите их:</label>
+	<input type="text" id="aliensdescription" name="aliensdescription"><br>
+	<label for="whattheydid">Что они делали с вами?</label>
+	<input type="text" id="whattheydid" name="whattheydid"><br>
+	<label for="fangspotted">Видели ли вы мою собаку Фэнга?</label>
+	Да<input id="fangspotted" name="fangspotted" type="radio" value="yes">
+	Нет<input id="fangspotted" name="fangspotted" type="radio" value="no"><br>
+	<img src="fang.jpg" width="100" height="175" alt="Моя похищенная собака Фэнг">
+	<label for="other">Дополнительная информация</label>
+	<textarea id="other" name="other"></textarea><br>
+	<input type="submit" value="Сообщение о похищении" name="submit">
+</form>
+
+</body>
+
+</html>
